@@ -1,21 +1,128 @@
-header {
-  background: green;
-  color: white;
-  border-bottom: 5px solid darkgreen;
+body {
+  font-family: arial;
+  font-weight: 500;
+  margin: 0 20%;
+  background-color: grey;
+}
+.background {
+  background: white;
+}
+
+.top {
+  background: #60bb60;
+  border-bottom: 8px solid #4a774a;
   height: 250px;
-  text-align: bottom;
-  
+}
+
+.top h1 {
+  text-align: left;
+  padding-top: 210px;
+  color: white;
 }
 
 .navbar {
   color: white;
-  background: navy;
+  background: #2f2f4c;
   list-style-type: none;
-  margin-top:-15px;
+  display: inline-block;
+  width: 100%;
+  border-bottom: 8px solid #171748;
 }
 
-.navbar li {
+.li {
   display: inline;
- 
-    
+  margin: 10px;
 }
+
+ul {
+  padding-left: 55%;
+}
+
+h2 {
+  margin: 30px 3% ;
+}
+
+h3 {
+  margin-top: 60px;
+  font-size: 20px;
+  margin: 0 5%;
+  border-bottom: 1px solid #949498;
+}
+
+p {
+  margin: 20px 9%;
+  padding-top: 5px;
+  font-size: 18px;
+  
+}
+
+td {
+  border: 1px solid #949498;
+}
+
+table {
+  margin: 30px;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #e6e6ea;
+}
+
+thead td {
+  padding: 10px;
+}
+
+.c1 {
+  padding: 30px;
+}
+
+.c2 {
+  padding: 10px;
+}
+
+.c3 {
+  padding: 30px;
+}
+
+button {
+  background: blue;
+  color: white;
+  border: none;
+}
+
+/* Equation */
+.equation {
+  background: #949498;
+  margin: 0 5%;
+  padding: 25px 25px 25px 55px;
+}
+
+/* Picture */
+img {
+  margin: 0 5%;
+  width: 90%;
+  height: 150px;
+}
+
+ol {
+  margin: 0 3%;
+}
+
+li>p {
+  padding: -30px;
+  list-style-type: none;
+}
+
+/* Posted */
+
+.posted {
+  color: #949498;
+}
+
+
+
+
+
+
+
