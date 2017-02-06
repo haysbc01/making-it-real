@@ -1,43 +1,51 @@
 body {
   font-family: arial;
   font-weight: 500;
-  margin: 0 25%;
-  background-color: grey;
+  margin: 0 20%;
+  background-color: #7F8C8D;
 }
 .background {
-  background: white;
+  background: #EBEFF0;
 }
 
+/* Header */
+
 .top {
-  background: #60bb60;
-  border-bottom: 8px solid #4a774a;
-  height: 400px;
+  background: #2ECC71;
+  border-bottom: 8px solid #27AE60;
+  height: 450px;
 }
 
 .top h1 {
   text-align: left;
-  padding-top: 350px;
-  padding-left: 20px;
+  padding-top: 320px;
   color: white;
+  margin-left: 3%;
+  font-size: 100px;
 }
 
 .navbar {
   color: white;
-  background: #2f2f4c;
+  background: #34495E;
   list-style-type: none;
   display: inline-block;
   width: 100%;
-  border-bottom: 8px solid #171748;
+  border-bottom: 8px solid #2C3E50;
+  border-radius: 0;
 }
 
 .li {
+  text-align: right;
   display: inline;
   margin: 10px;
 }
 
 ul {
-  padding-left: 55%;
+  text-align: right;
+  padding-right: : 40%;
 }
+
+/* Article body */
 
 h2 {
   margin: 30px 3% ;
@@ -99,10 +107,6 @@ button {
   padding: 25px 25px 25px 55px;
 }
 
-.o-list {
-  margin: 0;
-}
-
 /* Picture */
 img {
   margin: 0 5%;
@@ -126,6 +130,40 @@ li>p {
 }
 
 /* Comments */
-h4 {
-  font-size: 10px;
+
+.form-control {
+  padding: 30px 12px;
+  height: 50px;
+  width: 80%;
+  left: 200px;
+}
+
+.comment-box {
+  padding: 5%;
+  width: 100%;
+
+}
+
+/* Popout */
+
+.popout {
+  position: absolute;
+  background: #EAEEEF;
+  height: 500px;
+  width: 500px;
+  top: 20%;
+  right: 0%;
+
+}
+.popout ul {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.popout-li {
+  text-align: left;
+}
+
+.small-li {
+  text-align: left;
 }
